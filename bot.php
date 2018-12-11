@@ -14,12 +14,12 @@ if (!is_null($events['ESP'])) {
 	send_LINE("LED ON");	
 	echo "OK";
 	}
-if (!is_null($events['ESP_1'])) {
+/*if (!is_null($events['ESP_1'])) {
 	
 	send_LINE($events['ESP_1']);
 	send_LINE("LED ON");	
 	echo "OK";
-	}
+	}*/
 
 if (!is_null($events['events'])) {
 	echo "line bot";
