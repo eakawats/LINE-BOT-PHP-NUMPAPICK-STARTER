@@ -6,7 +6,7 @@
 $content = file_get_contents('php://input');
 // Parse JSON
 
-$events = json_decode($content, true);
+$events = json_decode($content, ON);
 // Validate parsed JSON data
 if (!is_null($events['ESP'])) {
 	
